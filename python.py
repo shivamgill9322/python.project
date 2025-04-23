@@ -17,7 +17,6 @@ plt.title("Histogram of Employment Rate")
 plt.xlabel("Employment Rate")
 plt.ylabel("Frequency")
 plt.show()
-
 # 2. Bar Plot (Average Employment Rate by Region)
 plt.figure(figsize=(6, 4))
 sns.barplot(x="Region", y="Employment Rate", data=df, palette="Set2")
