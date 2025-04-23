@@ -7,8 +7,6 @@ data_path = r"C:\Users\ASUS\OneDrive\Desktop\DataSet Employment.xlsx"
 df = pd.read_excel(data_path)
 # Set up a plot style
 sns.set(style="whitegrid")
-
-
 # 1. Histogram  
 plt.figure(figsize=(6, 4))
 sns.histplot(df["Employment Rate"], kde=True, color="skyblue", bins=10)
