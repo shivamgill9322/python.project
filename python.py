@@ -3,6 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the Excel file into a DataFrame
+
 data_path = r"C:\Users\ASUS\OneDrive\Desktop\DataSet Employment.xlsx"
 df = pd.read_excel(data_path)
 # Set up a plot style
